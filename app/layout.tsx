@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`antialiased ${openSans.className}`} data-theme="mytheme">
+    <html lang="en" className={`antialiased ${openSans.className}`} data-theme="shipmentXtheme">
       <body
       >
         {children}

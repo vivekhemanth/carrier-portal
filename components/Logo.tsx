@@ -6,7 +6,7 @@ interface ShipmentXLogoProps {
 
 const ShipmentXLogo: React.FC<ShipmentXLogoProps> = ({ className = '' }) => (
   <Image
-    src="/sh-logo-teal-yellow.svg"
+    src="/shipmentx-logo.svg"
     width={149.33}
     height={32}
     alt="ShipmentX Logo"

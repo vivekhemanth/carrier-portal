@@ -58,6 +58,7 @@ const SignInForm: React.FC = () => {
                 setError(res?.error || 'Something went wrong');
             }
         }
+        console.log(error);
     };
 
     const fieldConfigs: FieldConfig[] = [
@@ -90,8 +91,8 @@ const SignInForm: React.FC = () => {
                 </div>
             </form>
             <p className="text-gray-600 mt-4">
-                Don't have an account?{' '}
-                <Link href="/auth/signup" className="link link-secondary underline-offset-4">Sign up</Link>.
+                Don&lsquo;t have an account?{' '}
+                <Link href="/auth/signup" className="link link-primary underline-offset-4">Sign up</Link>.
             </p>
         </>
     );

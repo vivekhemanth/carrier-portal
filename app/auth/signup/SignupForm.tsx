@@ -91,7 +91,7 @@ const SignupForm: React.FC = () => {
       </form>
       <p className="text-gray-600 mt-4">
         Already have an account?{' '}
-        <Link href="/auth/signin" className="link link-secondary underline-offset-4">Sign in</Link>.
+        <Link href="/auth/signin" className="link link-primary underline-offset-4">Sign in</Link>.
       </p>
     </>
   );

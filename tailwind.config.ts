@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import daisyui from "daisyui";
+import typography from "@tailwindcss/typography";
 
 const config: Config = {
   content: [
@@ -7,28 +9,20 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {},
-  plugins: [require("daisyui"), require("@tailwindcss/typography")],
+  plugins: [daisyui, typography],
   daisyui: {
     themes: [
-      "cupcake",
-      "night",
-      "bumblebee",
-      "garden",
-      "pastel",
-      "emerald",
-      "light",
-      "dark",
       {
-        mytheme: {
-          primary: "#fde047",
-          secondary: "#14b8a6",
-          accent: "#9333ea",
-          neutral: "#9ca3af",
+        shipmentXtheme: {
+          primary: "#0369a1",
+          secondary: "#64748b",
+          accent: "#fde047",
+          neutral: "#71717a",
           "base-100": "#ffffff",
-          info: "#c026d3",
-          success: "#4ade80",
-          warning: "#fbbf24",
-          error: "#db2777",
+          info: "#06b6d4",
+          success: "#22c55e",
+          warning: "#fb923c",
+          error: "#e11d48",
         },
       },
     ],
